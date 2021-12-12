@@ -1,0 +1,22 @@
+.products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-row-gap: 50px;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 120px;
+}
+
+@media screen and (max-width: 768px) {
+    .products {
+        grid-template-columns: auto auto;
+        grid-row-gap: 30px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .products {
+        grid-template-columns: auto;
+        grid-row-gap: 30px;
+    }
+}

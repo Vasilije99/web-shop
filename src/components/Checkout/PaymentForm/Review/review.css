@@ -1,0 +1,24 @@
+.orderedListItem {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-bottom: 1px solid grey;
+}
+
+.orderedListItem:last-child {
+    background-color: lightcoral;
+    border-bottom: none;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 600px) {
+    .orderedListItem {
+        display: block;
+    }
+
+    .orderedListItem h4 {
+        font-size: 13px;
+    }
+}

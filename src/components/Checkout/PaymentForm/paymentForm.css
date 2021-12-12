@@ -1,0 +1,37 @@
+.payment-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 15px;
+    -webkit-box-shadow: 5px 5px 15px 5px #C3C3C3; 
+    box-shadow: 5px 5px 15px 5px #C3C3C3;
+}
+
+@media screen and (max-width: 768px) {
+    .payment-form {
+        max-width: 500px;
+    }
+
+    .buttons button {
+        height: 35px;
+        width: 100px;
+        font-size: 12px;
+    }
+} 
+
+@media screen and (max-width: 600px) {
+    .payment-form {
+        max-width: 410px;
+    }
+
+    .buttons button {
+        margin: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .payment-form {
+        max-width: 310px;
+    }
+}
